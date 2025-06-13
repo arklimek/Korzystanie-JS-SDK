@@ -33,12 +33,12 @@ function setupNav(){
   if (!nav) return;
   if (currentUser) {
     nav.innerHTML = `
-      <li><a href="index.html" class="text-white hover:underline">Home</a></li>
+      <li><a href="./index.html" class="text-white hover:underline">Home</a></li>
       <li class="font-medium px-4 text-white">${currentUser.email}</li>
       <li><button id="logout-btn" class="text-red-500 hover:underline transition">Wyloguj</button></li>`;
   } else {
     nav.innerHTML = `
-      <li><a href="index.html" class="hover:underline">Home</a></li>
+      <li><a href="./index.html" class="hover:underline">Home</a></li>
       <li><a href="/login.html" class="text-blue-500 hover:underline transition">Zaloguj</a></li>`;
   }
 }
