@@ -7,10 +7,7 @@ const __dirname = dirname(fileURLToPath(import.meta.url))
 
 const inputs = [];
 
-for await (const entry of glob('src/**/*.html')) {
-  console.log(resolve(__dirname, entry));
-  inputs.push(resolve(__dirname, entry));
-}
+
 
 export default defineConfig({
   plugins: [    
