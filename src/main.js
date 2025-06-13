@@ -38,8 +38,11 @@ function setupNav(){
       <li><button id="logout-btn" class="text-red-500 hover:underline transition">Wyloguj</button></li>`;
   } else {
     nav.innerHTML = `
-      <li><a href="./index.html" class="hover:underline">Home</a></li>
-      <li><a href="/login.html" class="text-blue-500 hover:underline transition">Zaloguj</a></li>`;
+      <li><a href="index.html" class="hover:underline">Home</a></li>
+      <li><a href="login.html" class="text-blue-500 hover:underline transition">Zaloguj</a></li>
+      <li><a href="/src/login.html" class="text-blue-500 hover:underline transition">Zaloguj</a></li>
+      <li><a href="./login.html" class="text-blue-500 hover:underline transition">Zaloguj</a></li>`;
+
   }
 }
 
