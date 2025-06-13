@@ -10,6 +10,6 @@ document.getElementById('login-form').addEventListener('submit', async (e) => {
   if (error) {
     alert('Błąd: ' + error.message);
   } else {
-    window.location.href = '/Korzystanie-JS-SDK/';
+    window.location.href = 'https://arklimek.github.io/Korzystanie-JS-SDK/';
   }
 });
