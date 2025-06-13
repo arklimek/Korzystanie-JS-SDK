@@ -10,6 +10,6 @@ document.getElementById('login-form').addEventListener('submit', async (e) => {
   if (error) {
     alert('Błąd: ' + error.message);
   } else {
-    window.location.href = '/';
+    window.location.href = '/Korzystanie-JS-SDK/';
   }
 });
