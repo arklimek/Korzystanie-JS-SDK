@@ -1,11 +1,11 @@
 {
-  "name": "laboratorium-9",
+  "name": "supabase-sdk",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build && cp ./dist/index.html ./dist/404.html",
+    "build": "vite build",
     "preview": "vite preview"
   },
   "devDependencies": {
@@ -13,8 +13,7 @@
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.50.0",
-    "@tailwindcss/vite": "^4.1.9",
-    "date-fns": "^4.1.0",
-    "tailwindcss": "^4.1.9"
+    "@tailwindcss/vite": "^4.1.10",
+    "tailwindcss": "^4.1.10"
   }
 }

@@ -1,2 +1,1 @@
-# Korzystanie JS SDK
-
+# vite-multipage-starter
